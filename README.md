@@ -24,28 +24,28 @@ For advanced user you can use Postman
 
 ## exercise
 
-# exercise 1
+### Exercise 1
 
 Route: /hello-world
 Type: ALL
 Description: Make a '/hello' endpoint that display always "Hello World!"
 Status: Always 200
 
-# Exercise 2
+### Exercise 2
 
 Route: /message?message="xxxxx"
 Type: ALL
 Description: Make a endpoint that display the message argument
 Status: 200 and message if not return 400 and "Bad request
 
-# Exercise 3
+### Exercise 3
 
 Route: /header
 Type: ALL
 Description: Make a endpoint that if the request contains a `message` header
 Status: 200 and message if not return 400 and "Bad request"
 
-# Exercise 4
+### Exercise 4
 
 Route: /body
 Type: ALL
@@ -55,14 +55,14 @@ Status: 200 and message if not return 400 and "Bad request"
 /!\ The body is on json format !
 Tips: use JSON.parse(message)
 
-# Exercise 5
+### Exercise 5
 
 Route: /cookie
 Type: ALL
 Description: Make a endpoint that if the request contains a `message` cookie
 Status: 200 and message if not return 400 and "Bad request"
 
-# Exercise 6
+### Exercise 6
 
 Route: /admin
 Type: ALL
