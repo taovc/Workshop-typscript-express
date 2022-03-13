@@ -1,23 +1,23 @@
 # tutorial-node-typescript
-使用 ts 编写 express 服务器的教程
+A workshop on writing an express server with ts
 
-## 使用
+## utilisation
 
 ```
     // installation
     npm install
 
-    // 编译
-    npm run build
-
-    // 执行编译后的 js 文件
-    npm run start
+    // Execute the shell
+    ./server_lauch.sh
 ```
-打开浏览器输入： http://localhost:3001/?a=10&b=20
+Open a browser and enter: http://localhost:3000/"endpoint"
 
-## 描述
-1. 使用 ts 开发 express 服务器
-2. 使用 nodemon 自动刷新，必须搭配 ts-node（可以直接运行 ts）
-3. types 的概念（ts 提示）
-4. tsc 命令把 ts 编译成 js 
-5. tsconfig 的配置功能点
+## description
+1. Use tpyescript to develop express server
+2. To use nodemon to refresh automatically, it must be paired with tpyescript-node (you can run tpyescript directly)
+3. The concept of types (tpyescript hint)
+4. The tsc command compiles tpyescript into js
+5. Configuration function points of tsconfig
+
+## exercise
+...................
