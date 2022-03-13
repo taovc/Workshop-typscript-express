@@ -27,9 +27,13 @@ For advanced user you can use Postman
 ### Exercise 1
 
 Route: /hello-world
+
 Type: ALL
+
 Description: Make a '/hello' endpoint that display always "Hello World!"
+
 Status: Always 200
+
 
 ### Exercise 2
 
